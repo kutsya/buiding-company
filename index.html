@@ -96,7 +96,7 @@
                     <div class="table__elements-consultation">
                         <img class="services-icon__blue" src="img/services-consultation.png" alt="handshake">
                         <hr class="table-line__blue">
-                        <h5 class="table-title__blue"
+                        <h5 class="table-title__blue">Consultation</h5>
                     </div>
                     <div class="table__elements-repair">
                         <img class="services-icon__white" src="img/services-repair.png" alt="work">
@@ -226,14 +226,14 @@
             <div class="sta__main">
                 <form>
                     <input class="sta__text" type="text" id="name" name="name" placeholder="your name" required
-                           minlength="4" maxlength="100"/>
+                           minlength="4" maxlength="100">
                     <input class="sta__email" type="email" id="email" name="email" placeholder="email@email.com"
-                           required minlength="4" maxlength="100"/><br>
+                           required minlength="4" maxlength="100"><br>
                     <select class="sta__info" id="info" name="info">
                         <option value="Reason for Contacting">Reason for Contacting</option>
-                        <option value="none"></option>
-                        <option value="none"></option>
-                        <option value="none"></option>
+                        <option value="null">null</option>
+                        <option value="null">null</option>
+                        <option value="null">null</option>
                     </select>
                     <input class="sta__tel" type="tel" id="phone" name="phone" placeholder="123-45-678-34-34"
                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
@@ -256,27 +256,24 @@
                 <h6>Email:</h6>
                 <p class="footer__overtitle">hello@thebox.com</p>
                 <a class="header__logo-link">
-                    <img src="img/header-logo.png">
+                    <img src="img/header-logo.png" alt="logo company">
                     <p class="header__logo-title">TheBox</p>
                 </a>
             </div>
             <div class="footer__input">
                 <h6>Newsletter:</h6>
-                <input class="footer__email" type="email" id="email" name="email" placeholder="Your email here" required
-                       minlength="4" maxlength="100"/>
+                <input class="footer__email" type="email" id="emailFooter" name="email" placeholder="Your email here"
+                       required minlength="4" maxlength="100">
                 <input class="footer__button-submit" type="submit">
             </div>
             <div class="footer__social-icons">
                 <h6>Social:</h6>
                 <a href="https://facebook.com" class="footer__social-icon">
-                    <img class="social__icon" src="img/social-icon-facebook.png" alt="social icon facebook">
-                    <a/>
-                    <a href="https://linkedin.com" class="footer__social-icon">
-                        <img class="social__icon" src="img/social-icon-linkedin.png" alt="social icon linkedin">
-                        <a/>
-                        <a href="https://twitter.com" class="footer__social-icon">
-                            <img class="social__icon" src="img/social-icon-twitter.png" alt="social icon twitter">
-                            <a/>
+                    <img class="social__icon" src="img/social-icon-facebook.png" alt="social icon facebook"></a>
+                <a href="https://linkedin.com" class="footer__social-icon">
+                    <img class="social__icon" src="img/social-icon-linkedin.png" alt="social icon linkedin"></a>
+                <a href="https://twitter.com" class="footer__social-icon">
+                    <img class="social__icon" src="img/social-icon-twitter.png" alt="social icon twitter"></a>
             </div>
             <div class="footer__footer">
                 <p class="footer__title">TheBox Company © 2022. All Rights Reserved</p>
