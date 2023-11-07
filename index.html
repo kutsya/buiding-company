@@ -206,7 +206,7 @@
                             <img src="img/project-button-left.png">
                             <button class="project-button__left">Back</button>
                         </div>
-                        <img src="img/project-points.png">
+                        <img class="project_scroll" src="img/project-points.png">
                         <div class="project-button__right">
                             <img src="img/project-button-right.png">
                             <button class="project-button__right">Next</button>
@@ -216,10 +216,72 @@
             </div>
         </div>
     </section>
+    <section class="sta">
+        <div class="container">
+            <div class="sta__header">
+                <h3 class="sta__title">What can us do for you?</h3>
+                <p class="sta_overtitle">We are ready to work on a project of any complexity, whether it’s commercial or
+                    residential.</p>
+            </div>
+            <div class="sta__main">
+                <form>
+                    <input class="sta__text" type="text" id="name" name="name" placeholder="your name" required
+                           minlength="4" maxlength="100"/>
+                    <input class="sta__email" type="email" id="email" name="email" placeholder="email@email.com"
+                           required minlength="4" maxlength="100"/><br>
+                    <select class="sta__info" id="info" name="info">
+                        <option value="Reason for Contacting">Reason for Contacting</option>
+                        <option value="none"></option>
+                        <option value="none"></option>
+                        <option value="none"></option>
+                    </select>
+                    <input class="sta__tel" type="tel" id="phone" name="phone" placeholder="123-45-678-34-34"
+                           pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+                    <textarea class="sta__textarea" name="textarea" rows="10" cols="50"
+                              placeholder="Message"></textarea><br>
+                    <input class="sta__button-submit" type="submit">
+                </form>
+            </div>
+        </div>
+    </section>
 </main>
 <footer id="contact-us" class="footer">
     <div class="container">
-
+        <div class="footer_container">
+            <div class="footer__info-company">
+                <h6>Address:</h6>
+                <p class="footer__overtitle">6391 Elgin St. Celina, Delaware 10299</p>
+                <h6>Phone:</h6>
+                <p class="footer__overtitle">+84 1102 2703</p>
+                <h6>Email:</h6>
+                <p class="footer__overtitle">hello@thebox.com</p>
+                <a class="header__logo-link">
+                    <img src="img/header-logo.png">
+                    <p class="header__logo-title">TheBox</p>
+                </a>
+            </div>
+            <div class="footer__input">
+                <h6>Newsletter:</h6>
+                <input class="footer__email" type="email" id="email" name="email" placeholder="Your email here" required
+                       minlength="4" maxlength="100"/>
+                <input class="footer__button-submit" type="submit">
+            </div>
+            <div class="footer__social-icons">
+                <h6>Social:</h6>
+                <a href="https://facebook.com" class="footer__social-icon">
+                    <img class="social__icon" src="img/social-icon-facebook.png">
+                    <a/>
+                <a href="https://linkedin.com" class="footer__social-icon">
+                    <img class="social__icon" src="img/social-icon-linkedin.png">
+                    <a/>
+                <a href="https://twitter.com" class="footer__social-icon">
+                    <img class="social__icon" src="img/social-icon-twitter.png">
+                    <a/>
+            </div>
+            <div class="footer__footer">
+                <p class="footer__title">TheBox Company © 2022. All Rights Reserved</p>
+            </div>
+        </div>
     </div>
 </footer>
 </body>
