@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +9,9 @@
     --title-color: #292E3D;
     --background-color-blue: #2947A9;
     --header-overtitle-color: #14171F;
+    --reasons-title: #3D445C;
+    --reasons-container-border: #E0E3EB;
+    --reasons-overtitle: #858EAD;
 }
 
 .container {

@@ -4,6 +4,45 @@
 
 .reasons__title {
     color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
     text-align: center;
     font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.reasons__blocks {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.reasons-container__blocks {
+    display: flex;
+    width: 292px;
+    padding: 20px 20px 40px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 4px;
+    border: 2px solid var(--reasons-container-border);
+    background: #FFF;
+}
+
+.reasons__blocks-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.reasons__blocks-title {
+    color: var(--reasons-title);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.reasons__blocks-overtitle {
+    color: var(--reasons-overtitle);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
 }
