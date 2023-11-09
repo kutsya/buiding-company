@@ -1,0 +1,9 @@
+.reasons {
+    height: 433px;
+}
+
+.reasons__title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 36px;
+}

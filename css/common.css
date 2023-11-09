@@ -1,9 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --title-color: #292E3D;
+    --background-color-blue: #2947A9;
+    --header-overtitle-color: #14171F;
 }
 
 .container {
