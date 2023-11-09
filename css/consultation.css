@@ -1,3 +1,29 @@
+.consultation {
+    background-image: url(../img/consultation-photo.png);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+}
+
 .consultation__icon {
     width: 100%;
+}
+
+.consultation__title {
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+}
+
+.consultation__overtitle {
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+}
+
+.consultation__button {
+    padding: 16px 20px;
+    border-radius: 2px;
+    border: 2px solid var(--title-color-white, #FFF);
 }
