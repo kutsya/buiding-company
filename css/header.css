@@ -4,6 +4,7 @@
     height: 775px;
     background-size: cover;
     background-position: top;
+    position: relative;
 }
 
 .header__nav {
@@ -77,9 +78,54 @@
 .header__container {
     background-color: var(--background-color-blue);
     width: 416px;
-    height: 150px;
+    height: 190px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    gap: 20px;
+}
+
+.header-container__overtitle {
+    padding-top: 20px;
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-container__title {
+    color: var(--title-color-white);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.header-container__buttons {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+}
+
+.container__buttons-right,
+.container__buttons-left {
+    display: flex;
+    width: 208px;
+    height: 40px;
+    padding: 4px 20px;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--title-color);
+}
+
+.header__arrow-next,
+.header__arrow-prev {
+    width: 26px;
+    height: 17px;
+    flex-shrink: 0;
 }
