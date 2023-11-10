@@ -49,10 +49,16 @@
     text-decoration: none;
     color: var(--header-overtitle-color);
     font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu__items:hover {
+    color: var(--title-color-orange);
 }
 
 .header__title {
     width: 556px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header__banner {
