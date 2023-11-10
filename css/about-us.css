@@ -1,8 +1,51 @@
 .about-us {
     height: 945px;
+    position: relative;
 }
 
 .about-us__icon {
     width: 902px;
     height: 669px;
+    margin-top: 75px;
+    margin-left: 114px;
+}
+
+.about-us__container-info {
+    width: 488px;
+    border-radius: 2px;
+    background: var(--background-color-blue);
+    height: 523px;
+    position: absolute;
+    right: 200px;
+    top: 130px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 37px;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.about-us__title {
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+}
+
+.about-us__overtitle {
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.about-us__button {
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 6px;
+    border: 2px solid var(--background-color-blue);
+    background: var(--title-color-white);
+    color: var(--background-color-blue);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
 }
