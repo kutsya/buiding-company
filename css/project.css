@@ -1,3 +1,8 @@
+.project {
+    height: 1098px;
+    background: var(--title-color-white);
+}
+
 .project__icon {
     height: 247px;
 }
