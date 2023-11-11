@@ -1,3 +1,11 @@
+.bg-blue {
+    background: blue;
+}
+
+.bg-white {
+    background: white;
+}
+
 .services {
     height: 608px;
     background: #F6F8F7;
@@ -21,7 +29,7 @@
     align-items: center;
 }
 
-.table__elements-white {
+.services__wrapper-item {
     display: grid;
     align-content: center;
     justify-items: center;
@@ -30,23 +38,17 @@
     padding: 20px;
     gap: 20px;
     border-radius: 4px;
-    background: #FFF;
     box-shadow: 20px 20px 8px 4px rgba(17, 24, 39, 0.05);
 }
-
-.table__elements-blue {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    width: 271px;
-    height: 181px;
-    padding: 20px;
-    gap: 20px;
-    border-radius: 4px;
-    background: var(--background-color-blue);
-    box-shadow: 20px 20px 8px 4px rgba(17, 24, 39, 0.05);
-
+.divider {
+    border-color: red;
 }
+
+.services-divider {
+    width: 100px;
+}
+
+
 .services-icon {
     width: 40px;
     height: 40px;

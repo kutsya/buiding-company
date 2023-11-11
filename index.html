@@ -6,40 +6,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
 <header class="header">
     <div class="container">
-        <nav class="header__nav">
+        <nav>
             <a class="header__logo-link">
-                <img class="header__logo-icon" src="img/header-logo.png" alt="logo">
-                <p class="header__logo-title">TheBox</p>
+                <img class="header__logo-link-icon" src="img/header-logo.png" alt="logo">
+                <p class="header__logo-link-title">TheBox</p>
             </a>
-            <div class="header__menu">
-                <a class="menu__items" href="#home">Home</a>
-                <a class="menu__items" href="#about-us">About Us</a>
-                <a class="menu__items" href="#project">Project</a>
-                <a class="menu__items" href="#services">Services</a>
-                <a class="menu__items" href="#contact-us">Contact Us</a>
-            </div>
+            <ul class="header__menu">
+                <li class="header__menu-link">
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="menu__items" href="#about-us">About Us</a>
+                </li>
+                <li>
+                    <a class="menu__items" href="#project">Project</a>
+                </li>
+                <li>
+                    <a class="menu__items" href="#services">Services</a>
+                </li>
+                <li><a class="menu__items" href="#contact-us">Contact Us</a></li>
+            </ul>
         </nav>
         <div class="header__banner">
             <h1 class="header__title">Building things is our mission.</h1>
         </div>
+        <!--        Переназвати-->
         <div class="header__container">
+            <!--             p=== title ???-->
             <p class="header-container__overtitle">Feature Projects</p>
             <h3 class="header-container__title">The National University of Architecture</h3>
             <div class="header-container__buttons">
                 <div class="container__buttons-left">
-                    <img class="header__arrow-prev" src="img/header-arrow-left.png" alt="arrow left">
-                    <button class="header-button__left">Back</button>
+                    <img class="header__arrow-next" src="img/header-arrow-left.png" alt="arrow left">
+                    <button class="header-butto">Back</button>
                 </div>
                 <div class="container__buttons-right">
-                    <button class="header-button__right">Next</button>
+                    <button class="header-button">Next</button>
                     <img alt="arrow right" class="header__arrow-next" src="img/header-arrow-right.png">
                 </div>
             </div>
         </div>
     </div>
 </header>
+
 <main>
     <section class="reasons">
         <div class="container">
@@ -83,37 +95,41 @@
             </div>
         </div>
     </section>
+
     <section class="services" id="services">
         <div class="container">
             <div class="services__container">
                 <h2 class="services__title">Services</h2>
-                <div class="services__table">
-                    <div class="table__elements-white">
-                        <img class="services-icon" src="img/services-construction.png" alt="building">
-                        <span class="table-line"></span>
-                        <h5 class="table-title__blue">Construction</h5>
+                <div class="services__wrapper">
+
+                    <div class="services__wrapper-item bg-blue">
+                        <img class="services__wrapper-item-icon" src="img/services-construction.png" alt="building">
+                        <!--                        <span class="table-line"></span>-->
+                        <hr class="services-divider divider"/>
+                        <h5 class="services__wrapper-item-title">Construction</h5>
                     </div>
-                    <div class="table__elements-blue">
+
+                    <div class="services__wrapper-item bg-white">
                         <img class="services-icon" src="img/services-renovation.png" alt="atom">
                         <span class="table-line"></span>
                         <h5 class="table-title__white">Renovation</h5>
                     </div>
-                    <div class="table__elements-white">
+                    <div class="table__elements-white bg-blue">
                         <img class="services-icon" src="img/services-consultation.png" alt="handshake">
                         <span class="table-line"></span>
                         <h5 class="table-title__blue">Consultation</h5>
                     </div>
-                    <div class="table__elements-blue">
+                    <div class="services__wrapper-item bg-white">
                         <img class="services-icon" src="img/services-repair.png" alt="work">
                         <span class="table-line"></span>
                         <h5 class="table-title__white">Repair Services</h5>
                     </div>
-                    <div class="table__elements-white">
+                    <div class="table__elements-white bg-blue">
                         <img class="services-icon" src="img/services-architecture.png" alt="stationery">
                         <span class="table-line"></span>
                         <h5 class="table-title__blue">Architecture</h5>
                     </div>
-                    <div class="table__elements-blue">
+                    <div class="services__wrapper-item bg-white">
                         <img class="services-icon" src="img/services-electric.png" alt="electricity">
                         <span class="table-line"></span>
                         <h5 class="table-title__white">Electric</h5>
@@ -122,13 +138,14 @@
             </div>
         </div>
     </section>
+
     <section class="stats">
         <div class="container">
             <div class="stats__container">
                 <div class="stats__container-statistics">
                     <div class="stats__statistics-client">
-                        <img class="stats-client__icon" src="img/stats-clients.png" alt="handshake">
-                        <h2 class="stats__title">84</h2>
+                        <img class="stats__statistics-client-icon" src="img/stats-clients.png" alt="handshake">
+                        <h2 class="stats__statistics-client-title">84</h2>
                         <hr class="stats__line">
                         <p class="stats__overtitle">Happy Clients</p>
                     </div>
@@ -231,8 +248,16 @@
                 </div>
                 <div class="sta__main">
                     <form>
-                        <input class="sta__text" id="name" maxlength="100" minlength="4" name="name" placeholder="your name"
-                               required type="text">
+                        <input
+                                class="sta__text"
+                                id="name"
+                                maxlength="100"
+                                minlength="4"
+                                name="name"
+                                placeholder="your name"
+                                type="text"
+                                required
+                        >
                         <input class="sta__email" id="email" maxlength="100" minlength="4" name="email"
                                placeholder="email@email.com" required type="email"><br>
                         <select class="sta__info" id="info" name="info">
@@ -241,7 +266,8 @@
                             <option value="null">null</option>
                             <option value="null">null</option>
                         </select>
-                        <input class="sta__tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678-34-34"
+                        <input class="sta__tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                               placeholder="123-45-678-34-34"
                                required type="tel"><br>
                         <textarea class="sta__textarea" cols="50" name="textarea" placeholder="Message"
                                   rows="10"></textarea><br>
@@ -252,10 +278,33 @@
         </div>
     </section>
 </main>
+
 <footer id="contact-us" class="footer">
     <div class="container">
         <div class="footer_container">
             <div class="footer__info-company">
+                <ul>
+                    <li class="footer__info-company-item">
+                        <h6 class="footer__info-company-item__title">Address:</h6>
+                        <p class="footer__info-company-item__subtitle">6391 Elgin St. Celina, Delaware 10299</p>
+                    </li>
+                    <li class="footer__info-company-item">
+                        <h6></h6>
+                        <p></p>
+                    </li>
+                    <li class="footer__info-company-item">
+                        <h6></h6>
+                        <p></p>
+                    </li>
+                    <li class="footer__info-company-item">
+                        <h6></h6>
+                        <p></p>
+                    </li>
+                    <li class="footer__info-company-item">
+                        <h6></h6>
+                        <p></p>
+                    </li>
+                </ul>
                 <h6>Address:</h6>
                 <p class="footer__overtitle">6391 Elgin St. Celina, Delaware 10299</p>
                 <h6>Phone:</h6>
@@ -267,11 +316,12 @@
                     <p class="header__logo-title">TheBox</p>
                 </a>
             </div>
-            <div class="footer__input">
-                <h6>Newsletter:</h6>
-                <input class="footer__email" type="email" id="emailFooter" name="email" placeholder="Your email here"
+            <div class="footer__input-wrapper">
+                <h6 class="footer__input-wrapper-title">Newsletter:</h6>
+                <input class="footer__input-wrapper-input" type="email" id="emailFooter" name="email" placeholder="Your email here"
                        required minlength="4" maxlength="100">
-                <input class="footer__button-submit" type="submit">
+<!--                <input class="footer__button-submit" type="submit">-->
+                <button class="footer__input-wrapper-btn" type="submit">btn</button>
             </div>
             <div class="footer__social-icons">
                 <h6>Social:</h6>
@@ -282,8 +332,8 @@
                 <a href="https://twitter.com" class="footer__social-icon">
                     <img class="social__icon" src="img/social-icon-twitter.png" alt="social icon twitter"></a>
             </div>
-            <div class="footer__footer">
-                <p class="footer__title">TheBox Company © 2022. All Rights Reserved</p>
+            <div class="footer__info">
+                <p class="footer__info-title">TheBox Company © 2022. All Rights Reserved</p>
             </div>
         </div>
     </div>

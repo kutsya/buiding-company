@@ -15,12 +15,9 @@
     grid-auto-rows: 139px;
 }
 
-.consultation__title,
-.consultation__overtitle {
+.consultation__title, .consultation__overtitle {
     grid-column: 1 / 2;
 }
-
-
 
 .consultation__icon {
     width: 100%;
