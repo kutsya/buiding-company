@@ -222,29 +222,32 @@
     </section>
     <section class="sta">
         <div class="container">
-            <div class="sta__header">
-                <h3 class="sta__title">What can us do for you?</h3>
-                <p class="sta_overtitle">We are ready to work on a project of any complexity, whether it’s commercial or
-                    residential.</p>
-            </div>
-            <div class="sta__main">
-                <form>
-                    <input class="sta__text" type="text" id="name" name="name" placeholder="your name" required
-                           minlength="4" maxlength="100">
-                    <input class="sta__email" type="email" id="email" name="email" placeholder="email@email.com"
-                           required minlength="4" maxlength="100"><br>
-                    <select class="sta__info" id="info" name="info">
-                        <option value="Reason for Contacting">Reason for Contacting</option>
-                        <option value="null">null</option>
-                        <option value="null">null</option>
-                        <option value="null">null</option>
-                    </select>
-                    <input class="sta__tel" type="tel" id="phone" name="phone" placeholder="123-45-678-34-34"
-                           pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
-                    <textarea class="sta__textarea" name="textarea" rows="10" cols="50"
-                              placeholder="Message"></textarea><br>
-                    <input class="sta__button-submit" type="submit">
-                </form>
+            <div class="sta__container">
+                <div class="sta__header">
+                    <h3 class="sta__title">What can us do for you?</h3>
+                    <p class="sta__overtitle">We are ready to work on a project of any complexity, whether it’s
+                        commercial or
+                        residential.</p>
+                </div>
+                <div class="sta__main">
+                    <form>
+                        <input class="sta__text" id="name" maxlength="100" minlength="4" name="name" placeholder="your name"
+                               required type="text">
+                        <input class="sta__email" id="email" maxlength="100" minlength="4" name="email"
+                               placeholder="email@email.com" required type="email"><br>
+                        <select class="sta__info" id="info" name="info">
+                            <option value="Reason for Contacting">Reason for Contacting</option>
+                            <option value="null">null</option>
+                            <option value="null">null</option>
+                            <option value="null">null</option>
+                        </select>
+                        <input class="sta__tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="123-45-678-34-34"
+                               required type="tel"><br>
+                        <textarea class="sta__textarea" cols="50" name="textarea" placeholder="Message"
+                                  rows="10"></textarea><br>
+                        <input class="sta__button-submit" type="submit">
+                    </form>
+                </div>
             </div>
         </div>
     </section>

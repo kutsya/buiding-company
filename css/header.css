@@ -116,11 +116,9 @@
     display: flex;
     width: 208px;
     height: 40px;
-    padding: 4px 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: var(--title-color);
 }
 
 .header__arrow-next,

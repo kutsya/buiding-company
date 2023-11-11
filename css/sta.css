@@ -1,0 +1,34 @@
+.sta {
+    height: 632px;
+    background: var(--sta-backgroud-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.sta__container {
+    width: 592px;
+    height: 416px;
+    gap: 38px;
+    display: grid;
+    justify-items: center;
+}
+
+.sta__header {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+}
+
+.sta__title {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 36px;
+}
+
+.sta__overtitle {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    width: 539px;
+}
