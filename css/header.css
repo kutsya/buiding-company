@@ -46,14 +46,14 @@
     max-height: 700px;
 }
 
-.menu__items {
+.header__menu-items {
     text-decoration: none;
     color: var(--header-overtitle-color);
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
 }
 
-.menu__items:hover {
+.header__menu-items:hover {
     color: var(--title-color-orange);
 }
 
@@ -62,7 +62,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.header__banner {
+.header__banner-title {
     text-align: center;
     padding-top: 200px;
     padding-left: 112px;
