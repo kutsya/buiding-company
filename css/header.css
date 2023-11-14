@@ -60,6 +60,9 @@
 .header__title {
     width: 556px;
     font-family: 'Work Sans', sans-serif;
+    color: var(--title-color);
+    font-size: 72px;
+    text-align: start;
 }
 
 .header__banner-title {
@@ -69,13 +72,7 @@
     padding-bottom: 180px;
 }
 
-.header__title {
-    color: var(--title-color);
-    font-size: 72px;
-    text-align: start;
-}
-
-.header__container {
+.header__aside {
     background-color: var(--background-color-blue);
     width: 416px;
     height: 190px;
@@ -89,7 +86,7 @@
     gap: 20px;
 }
 
-.header-container__overtitle {
+.header__aside-overtitle {
     padding-top: 20px;
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
@@ -97,7 +94,7 @@
     font-weight: 700;
 }
 
-.header-container__title {
+.header__aside-title {
     color: var(--title-color-white);
     text-align: center;
     font-family: 'Work Sans', sans-serif;
@@ -105,14 +102,13 @@
     font-weight: 400;
 }
 
-.header-container__buttons {
+.header__aside-buttons {
     position: absolute;
     display: flex;
     bottom: 0;
 }
 
-.container__buttons-right,
-.container__buttons-left {
+.header__aside-button {
     display: flex;
     width: 208px;
     height: 40px;
@@ -121,8 +117,7 @@
     gap: 10px;
 }
 
-.header__arrow-next,
-.header__arrow-prev {
+.header__aside-arrow {
     width: 26px;
     height: 17px;
     flex-shrink: 0;
