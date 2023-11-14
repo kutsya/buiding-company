@@ -15,8 +15,8 @@
     grid-auto-rows: 139px;
 }
 
-.consultation__title,
-.consultation__overtitle {
+.consultation__container-title,
+.consultation__container-overtitle {
     grid-column: 1 / 2;
 }
 
@@ -26,19 +26,19 @@
     width: 100%;
 }
 
-.consultation__title {
+.consultation__container-title {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
 }
 
-.consultation__overtitle {
+.consultation__container-overtitle {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
 }
 
-.consultation__button {
+.consultation__container-btn {
     grid-column: 2 / 3;
     background-color: rgb(0 128 255 / 0%);
     padding: 16px 20px;

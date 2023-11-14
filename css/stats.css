@@ -1,0 +1,7 @@
+.stats-body__statistics > h2 {
+    font-size: 100px;
+}
+
+.stats-body__statistics:is(.long-card) {
+
+}
