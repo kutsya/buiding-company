@@ -10,7 +10,7 @@
     margin-left: 114px;
 }
 
-.about-us__container-info {
+.about-us__sidebar {
     width: 488px;
     border-radius: 2px;
     background: var(--background-color-blue);
@@ -27,19 +27,19 @@
     padding-right: 50px;
 }
 
-.about-us__title {
+.about-us__sidebar-title {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
 }
 
-.about-us__overtitle {
+.about-us__sidebar-overtitle {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 
-.about-us__button {
+.about-us__sidebar-button {
     padding: 16px 20px;
     gap: 10px;
     border-radius: 6px;

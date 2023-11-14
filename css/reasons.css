@@ -11,13 +11,13 @@
     padding-bottom: 50px;
 }
 
-.reasons__blocks {
+.reasons__content {
     display: flex;
     justify-content: center;
     gap: 72px;
 }
 
-.reasons-container__blocks {
+.reasons-content__block {
     display: flex;
     width: 292px;
     padding: 20px 20px 40px 20px;
@@ -30,18 +30,18 @@
     background: #FFF;
 }
 
-.reasons__blocks-icon {
+.reasons-content__block-icon {
     width: 40px;
     height: 40px;
 }
 
-.reasons__blocks-title {
+.reasons-content__block-title {
     color: var(--reasons-title);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 
-.reasons__blocks-overtitle {
+.reasons-content__block-overtitle {
     color: var(--reasons-overtitle);
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
