@@ -1,7 +1,9 @@
-.stats-body__statistics > h2 {
-    font-size: 100px;
+.stats__item > h2 {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 72px;
 }
 
-.stats-body__statistics:is(.long-card) {
+.stats__item:is(.long-card) {
 
 }
