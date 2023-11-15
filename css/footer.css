@@ -1,0 +1,20 @@
+.footer {
+    height: 447px;
+    background: var(--title-color-white);
+    position: relative;
+}
+
+.footer__body {
+    display: flex;
+    padding: 85px;
+    gap: 323px;
+    align-items: center;
+}
+
+.footer__bottom {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
