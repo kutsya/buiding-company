@@ -1,4 +1,4 @@
-.sta {
+.feedback {
     height: 632px;
     background: var(--sta-backgroud-color);
     display: grid;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.sta__container {
+.feedback__container {
     width: 592px;
     height: 416px;
     gap: 38px;
@@ -14,19 +14,19 @@
     justify-items: center;
 }
 
-.sta__header {
+.feedback__header {
     display: grid;
     justify-items: center;
     gap: 20px;
 }
 
-.sta__title {
+.feedback__header-title {
     color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
 }
 
-.sta__overtitle {
+.feedback__header-overtitle {
     color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;

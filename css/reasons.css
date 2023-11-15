@@ -2,7 +2,7 @@
     height: 433px;
 }
 
-.reasons__title {
+.reasons__container-title {
     color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
     text-align: center;
@@ -11,13 +11,13 @@
     padding-bottom: 50px;
 }
 
-.reasons__content {
+.reasons__body {
     display: flex;
     justify-content: center;
     gap: 72px;
 }
 
-.reasons-content__block {
+.reasons-body__card {
     display: flex;
     width: 292px;
     padding: 20px 20px 40px 20px;
@@ -30,18 +30,18 @@
     background: #FFF;
 }
 
-.reasons-content__block-icon {
+.reasons-body__card-icon {
     width: 40px;
     height: 40px;
 }
 
-.reasons-content__block-title {
+.reasons-body__card-title {
     color: var(--reasons-title);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
 }
 
-.reasons-content__block-overtitle {
+.reasons-body__card-overtitle {
     color: var(--reasons-overtitle);
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
