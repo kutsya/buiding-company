@@ -9,9 +9,9 @@
 <header class="header">
     <div class="container">
         <nav class="header__nav">
-            <a class="header__logo-link">
-                <img class="header__logo-icon" src="img/header-logo.png" alt="logo">
-                <p class="header__logo-title">TheBox</p>
+            <a class="logo-link">
+                <img alt="logo" class="logo-icon" src="img/header-logo.png">
+                <p class="logo-title">TheBox</p>
             </a>
             <ul class="header__menu">
                 <li><a class="header__menu-items" href="#home">Home</a></li>
@@ -247,7 +247,7 @@
                                 maxlength="100"
                                 minlength="4"
                                 name="name"
-                               placeholder="your name"
+                                placeholder="your name"
                                 required type="text"
                         >
                         <input
@@ -270,7 +270,7 @@
                                 id="phone"
                                 name="phone"
                                 pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                               placeholder="123-45-678-34-34"
+                                placeholder="123-45-678-34-34"
                                 required type="tel"
                         ><br>
                         <textarea
@@ -287,34 +287,44 @@
         </div>
     </section>
 </main>
-<footer id="contact-us" class="footer">
+<footer class="footer" id="contact-us">
     <div class="container">
-        <div class="footer_container">
-            <div class="footer__sidebar">
-                <h6>Address:</h6>
-                <p class="footer-sidebar__overtitle">6391 Elgin St. Celina, Delaware 10299</p>
-                <h6>Phone:</h6>
-                <p class="footer-sidebar__overtitle">+84 1102 2703</p>
-                <h6>Email:</h6>
-                <p class="footer-sidebar__overtitle">hello@thebox.com</p>
-                <a class="footer-sidebar__logo-link">
-                    <img src="img/header-logo.png" alt="logo company">
-                    <p class="footer-sidebar__logo-title">TheBox</p>
-                </a>
-            </div>
-            <div class="footer__sidebar">
-                <h6>Newsletter:</h6>
-                <input class="footer-sidebar__form-email" id="emailFooter" name="email" placeholder="Your email here"
-                       type="email"
-                       required minlength="4" maxlength="100">
-                <input class="footer-sidebar__btn" type="submit">
-                <h6>Social:</h6>
-                <a class="footer-sidebar__social-icon" href="https://facebook.com">
-                    <img alt="social icon facebook" class="footer-sidebar__icon" src="img/social-icon-facebook.png"></a>
-                <a class="footer-sidebar__social-icon" href="https://linkedin.com">
-                    <img alt="social icon linkedin" class="footer-sidebar__icon" src="img/social-icon-linkedin.png"></a>
-                <a class="footer-sidebar__social-icon" href="https://twitter.com">
-                    <img alt="social icon twitter" class="footer-sidebar__icon" src="img/social-icon-twitter.png"></a>
+        <div class="footer__container">
+            <div class="footer__body">
+                <div class="footer-body__sidebar">
+                    <h6>Address:</h6>
+                    <p class="footer-body__sidebar-overtitle">6391 Elgin St. Celina, Delaware 10299</p>
+                    <h6>Phone:</h6>
+                    <p class="footer-body__sidebar-overtitle">+84 1102 2703</p>
+                    <h6>Email:</h6>
+                    <p class="footer-body__sidebar-overtitle">hello@thebox.com</p>
+                    <a class="logo-link">
+                        <img alt="logo company" class="logo-icon" src="img/header-logo.png">
+                        <p class="logo-title">TheBox</p>
+                    </a>
+                </div>
+                <div class="footer__sidebar">
+                    <h6>Newsletter:</h6>
+                    <input
+                            class="footer-sidebar__form-email"
+                            id="emailFooter"
+                            maxlength="100"
+                            minlength="4"
+                            name="email"
+                            placeholder="Your email here"
+                            required
+                            type="email"
+                    >
+                    <button class="footer-sidebar__btn">Submit</button>
+                    <h6>Social:</h6>
+                    <a class="footer-sidebar__social-icon" href="https://facebook.com">
+                        <img alt="social icon facebook" class="footer-sidebar__icon" src="img/social-icon-facebook.png"></a>
+                    <a class="footer-sidebar__social-icon" href="https://linkedin.com">
+                        <img alt="social icon linkedin" class="footer-sidebar__icon" src="img/social-icon-linkedin.png"></a>
+                    <a class="footer-sidebar__social-icon" href="https://twitter.com">
+                        <img alt="social icon twitter" class="footer-sidebar__icon"
+                             src="img/social-icon-twitter.png"></a>
+                </div>
             </div>
             <div class="footer__bottom">
                 <p class="footer-bottom__title">TheBox Company © 2022. All Rights Reserved</p>
