@@ -8,7 +8,7 @@
 
 .feedback__container {
     width: 592px;
-    height: 416px;
+    height: 500px;
     gap: 38px;
     display: grid;
     justify-items: center;
@@ -31,4 +31,52 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
     width: 539px;
+}
+
+form {
+    display: grid;
+    justify-items: center;
+    gap: 25px;
+}
+
+.feedback__main-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feedback-main__form {
+    width: 280px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--input-color-border);
+    background: #FFF;
+    color: var(--title-btn-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.feedback-main__form-textarea {
+    width: 582px;
+    height: 137px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--input-color-border);
+    background: #FFF;
+    color: var(--title-btn-color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    resize: none;
+}
+
+.feedback-main__form-btn {
+    width: 271px;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--background-color-blue);
+    color: var(--title-color-white);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
 }
