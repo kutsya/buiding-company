@@ -15,6 +15,9 @@
     --reasons-overtitle: #858EAD;
     --services-span-gray: #E0E3EB;
     --sta-backgroud-color: #F6F8F7;
+    --input-color-border: #E0E3EB;
+    --btn-color-orange: #F9995D;
+    --title-btn-color: #A3AAC2;
 }
 
 * {
@@ -32,9 +35,9 @@ body {
 h6 {
     color: var(--title-color-blue);
     font-family: 'Work Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
     font-variant: all-small-caps;
+    font-weight: 600;
 }
 
 .container {

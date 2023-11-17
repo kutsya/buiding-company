@@ -241,45 +241,47 @@
                 </div>
                 <div class="feedback__main">
                     <form>
-                        <input
-                                class="feedback-main__form-text"
-                                id="name"
-                                maxlength="100"
-                                minlength="4"
-                                name="name"
-                                placeholder="your name"
-                                required type="text"
-                        >
-                        <input
-                                class="feedback-main__form-email"
-                                id="email"
-                                maxlength="100"
-                                minlength="4"
-                                name="email"
-                                placeholder="email@email.com"
-                                required type="email"
-                        ><br>
-                        <select class="feedback-main__form-info" id="info" name="info">
-                            <option value="Reason for Contacting">Reason for Contacting</option>
-                            <option value="null">null</option>
-                            <option value="null">null</option>
-                            <option value="null">null</option>
-                        </select>
-                        <input
-                                class="feedback-main__form-tel"
-                                id="phone"
-                                name="phone"
-                                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
-                                placeholder="123-45-678-34-34"
-                                required type="tel"
-                        ><br>
+                        <div class="feedback__main-column">
+                            <input
+                                    class="feedback-main__form"
+                                    id="name"
+                                    maxlength="100"
+                                    minlength="4"
+                                    name="name"
+                                    placeholder="your name"
+                                    required type="text"
+                            >
+                            <input
+                                    class="feedback-main__form"
+                                    id="email"
+                                    maxlength="100"
+                                    minlength="4"
+                                    name="email"
+                                    placeholder="email@email.com"
+                                    required type="email"
+                            >
+                            <select class="feedback-main__form" id="info" name="info">
+                                <option value="Reason for Contacting">Reason for Contacting</option>
+                                <option value="null">null</option>
+                                <option value="null">null</option>
+                                <option value="null">null</option>
+                            </select>
+                            <input
+                                    class="feedback-main__form"
+                                    id="phone"
+                                    name="phone"
+                                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                                    placeholder="123-45-678-34-34"
+                                    required type="tel"
+                            >
+                        </div>
                         <textarea
                                 class="feedback-main__form-textarea"
                                 cols="50"
                                 name="textarea"
                                 placeholder="Message"
                                 rows="10"
-                        ></textarea><br>
+                        ></textarea>
                         <button class="feedback-main__form-btn">Submit</button>
                     </form>
                 </div>
@@ -291,13 +293,19 @@
     <div class="container">
         <div class="footer__container">
             <div class="footer__body">
-                <div class="footer-body__sidebar">
-                    <h6>Address:</h6>
-                    <p class="footer-body__sidebar-overtitle">6391 Elgin St. Celina, Delaware 10299</p>
-                    <h6>Phone:</h6>
-                    <p class="footer-body__sidebar-overtitle">+84 1102 2703</p>
-                    <h6>Email:</h6>
-                    <p class="footer-body__sidebar-overtitle">hello@thebox.com</p>
+                <div class="footer__sidebar">
+                    <div class="footer-sidebar__text">
+                        <h6>Address:</h6>
+                        <p class="footer-sidebar__text-overtitle">6391 Elgin St. Celina, Delaware 10299</p>
+                    </div>
+                    <div class="footer-sidebar__text">
+                        <h6>Phone:</h6>
+                        <p class="footer-sidebar__text-overtitle">+84 1102 2703</p>
+                    </div>
+                    <div class="footer-sidebar__text">
+                        <h6>Email:</h6>
+                        <p class="footer-sidebar__text-overtitle">hello@thebox.com</p>
+                    </div>
                     <a class="logo-link">
                         <img alt="logo company" class="logo-icon" src="img/header-logo.png">
                         <p class="logo-title">TheBox</p>
@@ -305,25 +313,31 @@
                 </div>
                 <div class="footer__sidebar">
                     <h6>Newsletter:</h6>
-                    <input
-                            class="footer-sidebar__form-email"
-                            id="emailFooter"
-                            maxlength="100"
-                            minlength="4"
-                            name="email"
-                            placeholder="Your email here"
-                            required
-                            type="email"
-                    >
-                    <button class="footer-sidebar__btn">Submit</button>
+                    <div class="footer__sidebar-top">
+                        <input
+                                class="footer-sidebar__form-email"
+                                id="emailFooter"
+                                maxlength="100"
+                                minlength="4"
+                                name="email"
+                                placeholder="Your email here"
+                                required
+                                type="email"
+                        >
+                        <button class="footer-sidebar__btn">Subscribe</button>
+                    </div>
                     <h6>Social:</h6>
-                    <a class="footer-sidebar__social-icon" href="https://facebook.com">
-                        <img alt="social icon facebook" class="footer-sidebar__icon" src="img/social-icon-facebook.png"></a>
-                    <a class="footer-sidebar__social-icon" href="https://linkedin.com">
-                        <img alt="social icon linkedin" class="footer-sidebar__icon" src="img/social-icon-linkedin.png"></a>
-                    <a class="footer-sidebar__social-icon" href="https://twitter.com">
-                        <img alt="social icon twitter" class="footer-sidebar__icon"
-                             src="img/social-icon-twitter.png"></a>
+                    <div class="footer__sidebar-bottom">
+                        <a class="footer-sidebar__social-icon" href="https://facebook.com">
+                            <img alt="social icon facebook" class="footer-sidebar__icon"
+                                 src="img/social-icon-facebook.png"></a>
+                        <a class="footer-sidebar__social-icon" href="https://linkedin.com">
+                            <img alt="social icon linkedin" class="footer-sidebar__icon"
+                                 src="img/social-icon-linkedin.png"></a>
+                        <a class="footer-sidebar__social-icon" href="https://twitter.com">
+                            <img alt="social icon twitter" class="footer-sidebar__icon"
+                                 src="img/social-icon-twitter.png"></a>
+                    </div>
                 </div>
             </div>
             <div class="footer__bottom">
