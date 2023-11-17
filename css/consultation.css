@@ -4,6 +4,9 @@
     height: 300px;
     background-size: cover;
     background-position: top;
+    display: grid;
+    align-content: center;
+    position: relative;
 }
 
 .consultation__icon {
@@ -13,31 +16,40 @@
 .consultation__body {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     align-items: center;
-    justify-items: center;
-    grid-auto-rows: 139px;
+    grid-template-columns: 798px 246px;
 }
 
-.consultation__body-title,
-.consultation__body-overtitle {
-    grid-column: 1 / 2;
+.consultation__sidebar-left {
+    display: grid;
+    justify-content: center;
+    justify-items: start;
+    gap: 30px;
+    position: absolute;
+    left: 112px;
 }
 
-.consultation__body-title {
+.consultation-sidebar__left-title {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
 }
 
-.consultation__body-overtitle {
+.consultation-sidebar__left-overtitle {
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
 }
 
-.consultation__body-btn {
+.consultation__sidebar-right {
+    display: grid;
+    justify-content: end;
+    position: absolute;
+    right: 160px;
+}
+
+.consultation-sidebar__right-btn {
     grid-column: 2 / 3;
     background-color: rgb(0 128 255 / 0%);
     padding: 16px 20px;
@@ -49,4 +61,5 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
+    text-decoration: none;
 }
