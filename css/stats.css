@@ -8,7 +8,13 @@
 }
 
 .stats__list {
-
+    display: flex;
+    width: 550px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 179px;
+    height: 600px;
 }
 
 .stats__item {
@@ -17,7 +23,6 @@
     background: var(--title-color-white);
     box-shadow: 19px 20px 20px 7px rgba(17, 24, 39, 0.05), 1px 12px 16px -4px rgba(17, 24, 39, 0.10);
     display: flex;
-    width: 280px;
     padding: 30px;
     height: 150px;
     justify-content: center;
@@ -34,6 +39,11 @@
 }
 
 .stats__item:is(.long-card) {
+    width: 360px;
+}
+
+.stats__item:is(.short-card) {
+    width: 280px;
 
 }
 
@@ -64,8 +74,14 @@
     display: flex;
     flex-direction: column;
     width: 359px;
-    bottom: 35%;
-    right: 0;
+    bottom: 215px;
+    right: 150px;
+}
+
+.stats-sidebar__info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .stats-sidebar__info-title {

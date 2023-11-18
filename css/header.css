@@ -22,6 +22,10 @@
     gap: 50px;
 }
 
+ul > li {
+    list-style-type: none;
+}
+
 .header__menu-items {
     text-decoration: none;
     color: var(--header-overtitle-color);
@@ -59,11 +63,10 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    gap: 20px;
 }
 
 .header__aside-title {
-    padding-top: 20px;
+    padding: 20px;
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
@@ -97,4 +100,14 @@
     width: 26px;
     height: 17px;
     flex-shrink: 0;
+}
+
+.header-aside-holder__btn-left,
+.header-aside-holder__btn-right {
+    width: 208px;
+    height: 40px;
+    background: var(--background-color);
+    color: var(--title-color-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
 }
