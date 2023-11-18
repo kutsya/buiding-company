@@ -6,7 +6,8 @@
 .project__body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-top: 170px;
+    padding: 170px 112px 138px 112px;
+    gap: 254px;
 }
 
 .project__list {
