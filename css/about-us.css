@@ -3,11 +3,13 @@
     position: relative;
 }
 
+.about-us__container {
+    padding: 74px;
+}
+
 .about-us__icon {
     width: 902px;
     height: 669px;
-    margin-top: 75px;
-    margin-left: 114px;
 }
 
 .about-us__sidebar {
@@ -48,4 +50,22 @@
     color: var(--background-color-blue);
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
+}
+
+@media (max-width: 1250px) {
+    .about-us {
+        height: 1105px;
+    }
+
+    .about-us__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us__sidebar {
+        position: absolute;
+        top: 500px;
+        left: 190px;
+    }
 }

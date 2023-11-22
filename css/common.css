@@ -33,6 +33,10 @@ body {
     align-items: center;
 }
 
+main {
+    width: 100%;
+}
+
 h6 {
     color: var(--title-color-blue);
     font-family: 'Work Sans', sans-serif;
@@ -42,7 +46,8 @@ h6 {
 }
 
 .container {
-    margin: 0;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .logo-link {
