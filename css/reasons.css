@@ -46,3 +46,16 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
 }
+
+@media (max-width: 1150px) {
+    .reasons {
+        height: 100%;
+    }
+
+    .reasons__body {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

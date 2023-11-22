@@ -65,3 +65,13 @@
 .clr-white {
     color: var(--title-color-white);
 }
+
+@media (max-width: 1100px) {
+    .services {
+        height: 100%;
+    }
+
+    .services__body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
