@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 170px 112px 138px 112px;
-    gap: 254px;
+    gap: 70px;
 }
 
 .project__list {
@@ -98,4 +98,29 @@
 
 .project-row__scroll {
     height: 16px;
+}
+
+@media (max-width: 1150px) {
+    .project {
+        height: 1183px;
+    }
+
+    .project__body {
+        grid-template-columns: 1fr;
+        padding: 135px 112px 10px 112px;
+    }
+
+    .project__list {
+        display: grid;
+        justify-content: start;
+        height: 90px;
+        gap: 20px;
+        padding-left: 69px;
+    }
+
+    .project__wrapper {
+        margin: 50px;
+        display: grid;
+        justify-items: center;
+    }
 }

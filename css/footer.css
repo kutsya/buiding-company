@@ -84,7 +84,7 @@
     display: flex;
     width: 100%;
     height: 70px;
-    padding: 1px 740px 1px 112px;
+    padding: 1px 112px 1px 112px;
     align-items: center;
     background: var(--background-color-blue);
 }
@@ -93,4 +93,30 @@
     color: var(--title-color-white);
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
+}
+
+@media (max-width: 1215px) {
+    .footer {
+        height: 500px;
+    }
+
+    .footer__body {
+        display: flex;
+        height: 377px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 24px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .project {
+        height: 100%;
+    }
+
+    .project__column {
+        grid-template-columns: 1fr;
+    }
 }

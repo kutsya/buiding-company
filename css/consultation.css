@@ -14,11 +14,9 @@
 }
 
 .consultation__body {
-    text-align: center;
     display: grid;
     gap: 20px;
     align-items: center;
-    grid-template-columns: 798px 246px;
 }
 
 .consultation__sidebar-left {
@@ -62,4 +60,28 @@
     font-style: normal;
     font-weight: 600;
     text-decoration: none;
+}
+
+@media (max-width: 1260px) {
+    .consultation__body {
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 62px;
+    }
+
+    .consultation__sidebar-left {
+        display: grid;
+        justify-content: center;
+        justify-items: start;
+        gap: 30px;
+        position: static;
+    }
+
+    .consultation__sidebar-right {
+        display: grid;
+        justify-content: start;
+        position: static;
+    }
 }
