@@ -1,5 +1,4 @@
 .feedback {
-    height: 632px;
     background: var(--sta-backgroud-color);
     display: grid;
     justify-content: center;
