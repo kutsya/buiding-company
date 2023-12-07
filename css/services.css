@@ -2,12 +2,15 @@
     background: #F6F8F7;
 }
 
+.services__container {
+    padding: 50px;
+}
+
 .services__title {
     color: var(--title-color);
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 36px;
-    padding-top: 44px;
     padding-bottom: 36px;
 }
 
