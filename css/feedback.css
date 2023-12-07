@@ -6,8 +6,7 @@
 }
 
 .feedback__container {
-    width: 592px;
-    height: 500px;
+    padding: 60px;
     gap: 38px;
     display: grid;
     justify-items: center;
