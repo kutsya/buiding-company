@@ -115,11 +115,42 @@
         justify-content: start;
         height: 90px;
         gap: 20px;
-        padding-left: 69px;
     }
 
     .project__wrapper {
         display: grid;
         justify-items: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .project__list {
+        display: grid;
+        justify-content: center;
+        height: 90px;
+        gap: 20px;
+        justify-items: center;
+    }
+
+    .project__column {
+        grid-template-columns: 1fr;
+    }
+
+    .project-row__btn {
+        width: 100%;
+    }
+
+    .project {
+        height: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .project {
+        height: 100%;
+    }
+
+    .project__column {
+        grid-template-columns: 1fr;
     }
 }

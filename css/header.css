@@ -13,6 +13,10 @@
     justify-content: space-around;
     background: #FFF;
     height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header__menu {
