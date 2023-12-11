@@ -68,7 +68,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 62px;
     }
 
     .consultation__sidebar-left {
