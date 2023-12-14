@@ -28,7 +28,7 @@
     color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
     font-size: 20px;
-    width: 539px;
+    max-width: 539px;
 }
 
 form {
@@ -77,4 +77,28 @@ form {
     text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
+}
+
+@media (min-width: 375px) {
+    .feedback__main-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .feedback-main__form-textarea {
+        width: 281px;
+    }
+}
+
+@media (min-width: 768px) {
+    .feedback__main-column {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .feedback-main__form-textarea {
+        width: 582px;
+    }
 }
