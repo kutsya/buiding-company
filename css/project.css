@@ -48,16 +48,11 @@
 }
 
 .project-row__btn {
-    display: flex;
     width: 295px;
     height: 64px;
     padding: 4px 20px;
-    justify-content: center;
-    align-items: center;
     background: var(--background-color);
-    gap: 10px;
     color: var(--title-color-white);
-    text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
 }
@@ -84,7 +79,7 @@
     }
 
     .project__wrapper {
-        width: 382px;
+        width: 347px;
     }
 
     .project__column {
@@ -96,7 +91,7 @@
     }
 
     .project-column__card {
-        width: 384px;
+        width: 345px;
     }
 
     .project__row {
@@ -135,7 +130,7 @@
     .project__wrapper {
         display: grid;
         justify-items: center;
-        width: 100%;
+        width: 721px;
     }
 
     .project__column {
@@ -148,6 +143,10 @@
 
     .project-column__card {
         width: 345px;
+    }
+
+    .project__row {
+        width: 100%;
     }
 
     .project-row__scroll {
@@ -192,5 +191,6 @@
         align-items: center;
         gap: 10px;
         padding: 32px;
+        width: 100%;
     }
 }

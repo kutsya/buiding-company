@@ -62,12 +62,13 @@
     text-decoration: none;
 }
 
-@media (max-width: 1260px) {
+@media (min-width: 375px) {
     .consultation__body {
         grid-template-columns: 1fr;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 10px;
+        display: grid;
+        align-items: center;
+        justify-content: start;
     }
 
     .consultation__sidebar-left {
@@ -82,5 +83,20 @@
         display: grid;
         justify-content: start;
         position: static;
+    }
+}
+
+@media (min-width: 1024px) {
+    .consultation__sidebar-right {
+        right: 50px;
+    }
+
+    .consultation__body {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 87px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: end;
     }
 }
