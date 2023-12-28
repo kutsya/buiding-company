@@ -159,8 +159,8 @@
     .project__body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding: 150px 25px 50px 25px;
-        gap: 70px;
+        padding: 150px 90px 50px 25px;
+        gap: 50px;
     }
 
     .project__list {

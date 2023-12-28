@@ -41,8 +41,10 @@ ul > li {
 }
 
 .header__banner {
+    display: flex;
     text-align: center;
-    padding: 375px 112px 375px 102px;
+    justify-content: center;
+    padding: 375px 20px 375px 20px;
 }
 
 .header__banner-title {
