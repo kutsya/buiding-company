@@ -13,6 +13,12 @@
     position: relative;
 }
 
+.stats-item__divider {
+    color: orange;
+    font-weight: bold;
+    border-left: 7px solid orange;
+    padding-left: 20px;
+}
 .stats__item > h2 {
     color: var(--title-color);
     font-family: 'Work Sans', sans-serif;
@@ -25,7 +31,6 @@
 
 .stats__item:is(.short-card) {
     width: 280px;
-
 }
 
 .stats__item > p {
@@ -218,14 +223,14 @@
 @media (min-width: 1024px) {
     .stats {
         position: relative;
-        height: 1100px;
+        height: 723px;
     }
 
     .stats__container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        flex-direction: row;
+        gap: 186px;
+        justify-content: center;
     }
 
     .stats__list {
