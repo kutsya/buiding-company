@@ -6,7 +6,6 @@
 }
 
 .feedback__container {
-    padding: 60px;
     gap: 38px;
     display: grid;
     justify-items: center;
@@ -80,6 +79,10 @@ form {
 }
 
 @media (min-width: 375px) {
+    .feedback__container {
+        padding: 40px;
+    }
+
     .feedback__main-column {
         display: grid;
         grid-template-columns: 1fr;
@@ -92,6 +95,10 @@ form {
 }
 
 @media (min-width: 768px) {
+    .feedback__container {
+        padding: 60px;
+    }
+
     .feedback__main-column {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

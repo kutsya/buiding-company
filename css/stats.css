@@ -109,11 +109,11 @@
     }
 
     .stats__list {
-        width: 453px;
+        width: 366px;
         position: relative;
-        left: 40px;
+        left: 0;
         height: 600px;
-        top: 25px;
+        top: 26px;
     }
 
     .stats__sidebar {
@@ -130,18 +130,18 @@
     .stats__item:nth-child(2) {
         position: absolute;
         bottom: 149px;
-        right: 128px;
+        right: 30px;
     }
 
     .stats__item:nth-child(3) {
         position: absolute;
         top: 148px;
-        right: 88px;
+        right: 5px;
     }
 
     .stats__item:nth-child(4) {
         position: absolute;
-        right: 118px;
+        right: 30px;
         top: 0;
     }
 

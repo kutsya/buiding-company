@@ -65,7 +65,7 @@
     .project__body {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 150px 25px 50px 25px;
+        padding: 150px 6px 50px 10px;
         gap: 106px;
         justify-items: center;
     }
